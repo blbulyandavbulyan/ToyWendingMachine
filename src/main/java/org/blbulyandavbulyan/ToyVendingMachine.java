@@ -71,4 +71,12 @@ public class ToyVendingMachine {
             recalculateProbabilities();
         }
     }
+
+    /**
+     * Проверяет есть ли в автомате игрушка
+     * @return true если есть
+     */
+    public boolean hasToy(){
+        return !idToToy.isEmpty();
+    }
 }
